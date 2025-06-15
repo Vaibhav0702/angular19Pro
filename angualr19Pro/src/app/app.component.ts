@@ -11,5 +11,14 @@ import { profileComponent } from './profile/profile.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'angualr19Pro';
+  title : string = 'angualr19Pro';
+
+  other  : string | number | boolean = true;
+
+  
+
+  handleClick(){
+      alert('hellow Bhai welcome to' + this.title )
+  }
+
 }
